@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+input {
+  margin-top: 10px;
+  margin: auto;
+  padding: 8px 16px 8px 10px;
+  border-radius: 10px;
+  border: 1px solid;
+  transition: 0.2s;
+  background-color: #EEE;
+
+}
+
+input:focus {
+  outline: 1px solid blue;
+}
+
+.getGender{
+  margin-top: 20px;
+  background-color: #EEE;
+  width: 15rem;
+  padding: 20px;
+  border-radius: 10px;
+  min-height: 100px;
+  transition: 0.5s;
+}
+
+.item {
+  background-color: orangered;
+  color: white;
+  border-radius: 5px;
+  padding: 5px 20px;
+  margin-bottom: 10px;
+  width: fit-content;
+  margin-inline: auto;
+  transition: 0.5s;
+}

@@ -1,0 +1,19 @@
+{
+  "String": "Elzero",
+  "Number": 100,
+  "object": {
+    "Egypt": "Helioplies",
+    "Saudi": "Shaqraa",
+    "Masr": {
+      "Masr": 1,
+      "Masr2": 2
+    }
+  },
+  "arr": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "null": null
+}
